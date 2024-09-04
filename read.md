@@ -2,7 +2,12 @@
 import pandas as pd <br />
 import numpy as np <br />
 import matplotlib.pyplot as plt  <br />
-inp0 = pd.read_csv("googleplaystore_v2.csv")
+def load_data(file_path):  <br />
+    return pd.read_csv(file_path)  <br />
+    
+if __name__ == "__main__":  <br />
+&nbsp; &nbsp; &nbsp; inp1 = load_data("googleplaystore_v2.csv")  <br />
+
 
 ## Data Handling and Cleaning
 - **To clean and preprocess the data to handle missing values and inconsistencies:** <br />
