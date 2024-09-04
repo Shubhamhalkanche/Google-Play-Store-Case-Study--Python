@@ -23,13 +23,12 @@ This project involves an in-depth analysis of Google Play Store app data to extr
 
 
 **Notebook** : Jupyter notebook for exploratory data analysis and visualization.
-You can dowload the **"Case Study Python Notebook.ipynb"** from [Here](https://github.com/Shubhamhalkanche/Shubhamhalkanche-Google-Play-Store-Case-Study-using-Python/blob/main/Case%20Study%20Python%20Notebook.ipynb
-)
+You can dowload the **"Case Study Python Notebook.ipynb"** from [Here](https://github.com/Shubhamhalkanche/Shubhamhalkanche-Google-Play-Store-Case-Study-using-Python/blob/main/Case%20Study%20Python%20Notebook.ipynb)
 
 
 **Scripts**: Python scripts for various stages of data processing and analysis.
-  - [`Data_Preprocessing_scripts.md`](https://github.com/Shubhamhalkanche/Shubhamhalkanche-Google-Play-Store-Case-Study-using-Python/blob/main/Case%20Study%20Python%20Notebook.ipynb): Script for loading and cleaning the data.
-  - `Visualizations_scripts.md`: Script for generating visualizations.
+  - [`Data_Preprocessing_scripts.md`](https://github.com/Shubhamhalkanche/Shubhamhalkanche-Google-Play-Store-Case-Study-using-Python/blob/main/Data_Preprocessing_scripts.md): Script for loading and cleaning the data.
+  - [`Visualizations_scripts.md`](https://github.com/Shubhamhalkanche/Shubhamhalkanche-Google-Play-Store-Case-Study-using-Python/blob/main/Visualizations_scripts.md): Script for generating visualizations.
 
 
 **Results**: Contains results of the analysis.
@@ -43,5 +42,5 @@ You can dowload the **"Case Study Python Notebook.ipynb"** from [Here](https://g
 - Matplotlib
 - Seaborn
 
-### Contact
+### Contact :
 For any questions or feedback, please contact Shubham Halkanche (<shubhamhalkanche333@gmail.com>).
