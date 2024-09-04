@@ -22,29 +22,20 @@ This project involves an in-depth analysis of Google Play Store app data to extr
 - `Android Ver`: Minimum Android version required for the app.
 
 
-**notebook** : Jupyter notebook for exploratory data analysis and visualization.
+**Notebook** : Jupyter notebook for exploratory data analysis and visualization.
 You can dowload the **"Case Study Python Notebook.ipynb"** from [Here](https://github.com/Shubhamhalkanche/Shubhamhalkanche-Google-Play-Store-Case-Study-using-Python/blob/main/Case%20Study%20Python%20Notebook.ipynb
 )
 
 
-**scripts**: Python scripts for various stages of data processing and analysis.
-  - `data_preprocessing.py`: Script for loading and cleaning the data.
-  - `feature_engineering.py`: Script for adding additional features to the dataset.
-  - `visualization.py`: Script for generating visualizations.
+**Scripts**: Python scripts for various stages of data processing and analysis.
+  - [`Data_Preprocessing_scripts.md`](https://github.com/Shubhamhalkanche/Shubhamhalkanche-Google-Play-Store-Case-Study-using-Python/blob/main/Case%20Study%20Python%20Notebook.ipynb): Script for loading and cleaning the data.
+  - `Visualizations_scripts.md`: Script for generating visualizations.
 
 
-**results**: Contains results of the analysis.
-  - `Visuals/`: Directory with saved visualizations.
-  - `insights.txt`: File with key insights from the analysis.
+**Results**: Contains results of the analysis.
+  - `Visuals.pdf`: Directory with saved visualizations.
+  - `Insights.pdf`: File with key insights from the analysis.
 
-
-**Visualizations:** Visualizations are saved in the Visuals directory. 
-Examples include:
-rating_distribution.png: Distribution of app ratings.
-install_vs_rating.png: Relationship between installs and ratings.
-category_distribution.png: Distribution of apps across different categories.
-
-**Insights:** Key findings and insights are documented in results/insights.txt.
 
 **Libraries Used:**  This project leverages the following Python libraries:
 - Pandas
@@ -52,3 +43,5 @@ category_distribution.png: Distribution of apps across different categories.
 - Matplotlib
 - Seaborn
 
+### Contact
+For any questions or feedback, please contact Shubham Halkanche (<shubhamhalkanche333@gmail.com>).
