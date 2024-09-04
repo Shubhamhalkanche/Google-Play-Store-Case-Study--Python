@@ -32,8 +32,8 @@ You can dowload the **"Case Study Python Notebook.ipynb"** from [Here](https://g
 
 
 **Results**: Contains results of the analysis.
-  - `Visuals.pdf`: Directory with saved visualizations.
-  - `Insights.pdf`: File with key insights from the analysis.
+  - [`Visuals.pdf`](https://github.com/Shubhamhalkanche/Shubhamhalkanche-Google-Play-Store-Case-Study-using-Python/blob/main/Insights.pdf): Directory with saved visualizations.
+  - [`Insights.pdf`](https://github.com/Shubhamhalkanche/Shubhamhalkanche-Google-Play-Store-Case-Study-using-Python/blob/main/Visuals.pdf): File with key insights from the analysis.
 
 
 **Libraries Used:**  This project leverages the following Python libraries:
