@@ -1,6 +1,7 @@
 ## Importing the Dataset
 import pandas as pd <br />
 import numpy as np <br />
+import matplotlib.pyplot as plt  <br />
 inp0 = pd.read_csv("googleplaystore_v2.csv")
 
 ## Data Handling and Cleaning
@@ -27,7 +28,6 @@ inp1[inp1['Android Ver'].isnull()]
 inp1.loc[10472,:] <br />
 inp1[(inp1['Android Ver'].isnull() & (inp1.Category == "1.9"))] <br />
 inp1 = inp1[~(inp1['Android Ver'].isnull() & (inp1.Category == "1.9"))] <br />
-**Checking the nulls again in Android version column to cross-verify**   <br />
 inp1[inp1['Android Ver'].isnull()]
 
 ## Imputing Missing Values
@@ -64,6 +64,20 @@ def clean_installs(val): <br />
 type(clean_installs("3,000+")) <br />
 inp1.Installs = inp1.Installs.apply(clean_installs) <br />
 inp1.Installs.describe() <br />
+
+**Need to remove extreme values or outliers from our dataset. These values can tilt our analysis and often provide us with a biased perspective of the data available.** <br />
+plt.boxplot(inp1.Price) <br />
+inp1[inp1.Price > 200] <br />
+inp1 = inp1[inp1.Price < 200] <br />
+inp1.Price.describe() <br />
+inp1[inp1.Price>0].Price.plot.box() <br />
+inp1[inp1.Price>30] <br />
+inp1 = inp1[inp1.Price <= 30] <br />
+inp1.shape <br />
+ <br />
+inp1.Installs.describe() <br />
+inp1 = inp1[inp1.Installs <= 100000000] <br />
+inp1.shape <br />
 
 ## Sanity Checks
 **Number of Reviews is less than or equal to the number of Installs.** <br />
